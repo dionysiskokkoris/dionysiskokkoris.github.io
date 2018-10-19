@@ -1,0 +1,309 @@
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter,  Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+*, :after, :before {
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+@-ms-viewport {
+    width: device-width;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #f3f6f8;
+}
+[tabindex="-1"]:focus {
+    outline: 0!important;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+/* Not important */
+.footer {
+  
+  height: 1000px;
+  margin:0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.tel{
+  justify-content: center;
+  margin:auto;
+  padding:auto;
+  align-items: center;
+}
+
+
+
+
+/*navbar*/
+
+#navbar-main{
+  background-color: black!important;
+  border-bottom: 5px #fbb315 solid;
+
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.main-header {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  background: #333;
+  padding: 30px;
+}
+
+/* Added for aesthetics */ body {margin: 0;font-family: "Segoe UI", Arial, Helvetica, Sans Serif;} a {text-decoration: none; display: inline-block; margin-right: 10px; color:#fff;}
+
+
+/*home*/
+#home{
+  font-family: sans-serif;
+
+  /*filter: gray;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+*/
+
+  padding-top: 225px;
+  padding-bottom: 225px;
+
+}
+
+.blue {
+  background-image:
+    linear-gradient(
+      rgba(0, 15, 200, 0.5),
+      rgba(0, 15, 200, 0.5)
+    ),
+    url("/home/dion/Desktop/laptop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    /*height: 100vh;*/
+}
+
+
+
+#home .section-home--content{
+  filter: brightness(100%);
+  font-weight: bold;
+  color: white;
+}
+
+#home .section-home--content .display-4 {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#home .section-home--content .lead {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 2s ease-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#home .section-home--content .btn {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 2s ease-out 0s 1 slideInFromBottom;
+}
+
+/*about*/
+
+
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#about img{
+  padding-left: 50px;
+  width: 350px;
+  height: 350px;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#about h3{
+  animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+#about .section-title{
+  animation: 2s ease-out 0s 1 slideInFromTop;
+}
+
+#about p{
+  animation: 2s ease-out 0s 1 slideInFromRight;
+}
+
+#about a, img{
+  animation: 2s ease-out 0s 1 slideInFromBottom;
+}
+
+/*qualifications*/
+#qualifications{
+  padding-top: 100px;
+
+}
+
+#skills{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto auto;
+}
+#logo{
+  height: 80px;
+  width: 80px;
+}
+
+
+#experience{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+#trainings{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.grow {
+  transition: all .2s ease-in-out;
+}
+.grow-icon {
+  transition: all .1s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.05);
+}
+.grow-icon:hover {
+  transform: scale(1.2);
+}
+/*projects*/
+
+.content-wrap {
+  
+  margin: 0 auto;
+  padding: 60px 30px;
+  overflow: hidden;
+  text-align: center;
+}
+.project {
+  padding: 2px 4px;
+  background: #CFCECE;
+  border-radius: 10px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  color:black;
+}
+#projects{
+
+
+}
+.project:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  color:black;text-decoration: underline;
+}
+
+
+
+
+
+#contact{
+ 
+}
+
+
+
+
+
+@keyframes pulsate {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+@-webkit-keyframes pulsate {
+  0% { -webkit-transform: scale(1); }
+  50% { -webkit-transform: scale(1.3); }
+  100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes pulsate {
+  0% { -moz-transform: scale(1); }
+  50% { -moz-transform: scale(1.3); }
+  100% { -moz-transform: scale(1); }
+}
+
