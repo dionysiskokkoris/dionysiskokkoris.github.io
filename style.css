@@ -116,7 +116,7 @@ p {
       rgba(0, 15, 200, 0.5),
       rgba(0, 15, 200, 0.5)
     ),
-    url("/home/dion/Desktop/laptop.jpg");
+    url("./laptop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 80% center;
