@@ -297,7 +297,7 @@ justify-content: center;
   display:flex;
   flex-direction:column;
 text-align:center;
-background-image: url("/home/dion/1/my.jpg");
+background-image: url("./my.jpg");
 background-size:cover;
 background-position: center; 
 color: white; 
