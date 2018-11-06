@@ -21,7 +21,7 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
-.nav-link{color:white !important; }
+.nav-link{color:green !important; }
 .nav-link:hover{text-decoration:underline;}
 body {
     margin: 0;
