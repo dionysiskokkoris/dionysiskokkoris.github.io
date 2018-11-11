@@ -182,9 +182,8 @@ p {
   animation: 2s ease-out 0s 1 slideInFromBottom;
 }
 
-/*about*/
 
-
+#footer-header{text-align:center;padding-top: 20px;}
 #about {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -290,7 +289,7 @@ img
 #projects{display:flex;
 justify-content: center;
   margin:auto;
-  padding:auto;
+  padding-top:100px;
   align-items: center;
 
 }
