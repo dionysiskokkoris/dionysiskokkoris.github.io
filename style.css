@@ -88,6 +88,21 @@ p {
   }
 }
 
+ .ro{font-size: 2em; animation: skew 1s infinite;
+
+
+  }
+
+  @keyframes skew {
+    0% {
+      transform: skewX(20deg);
+    }
+    100% {
+      transform: skewX(-20deg);
+    }
+  }
+
+
 .main-header {
   /* This section calls the slideInFromLeft animation we defined above */
   animation: 1s ease-out 0s 1 slideInFromLeft;
