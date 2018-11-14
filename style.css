@@ -21,7 +21,27 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
-.social-link-group{padding:10px}
+.btn{margin-left:80px;
+}
+.ro{padding:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+  .ro1{font-size: 2em; animation: skew 1s infinite;
+
+
+  }
+
+  @keyframes skew {
+    0% {
+      transform: skewX(20deg);
+    }
+    100% {
+      transform: skewX(-20deg);
+    }
+  }
+
 .nav-link:hover{text-decoration:underline;color:white;}
 body {
     margin: 0;
@@ -68,7 +88,7 @@ p {
   align-items: center;
 }
 
-.social-link-group{padding-top:10px;}
+
 
 
 /*navbar*/
@@ -87,21 +107,6 @@ p {
     transform: translateX(0);
   }
 }
-
- .ro{font-size: 2em; animation: skew 1s infinite;
-
-
-  }
-
-  @keyframes skew {
-    0% {
-      transform: skewX(20deg);
-    }
-    100% {
-      transform: skewX(-20deg);
-    }
-  }
-
 
 .main-header {
   /* This section calls the slideInFromLeft animation we defined above */
@@ -182,8 +187,9 @@ p {
   animation: 2s ease-out 0s 1 slideInFromBottom;
 }
 
+/*about*/
 
-#footer-header{text-align:center;padding-top: 20px;}
+
 #about {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -237,6 +243,7 @@ img
     max-height: 100%;
     display: block;
     margin: auto auto;
+    padding: 10px;
 }
 #logo{
   height: 80px;
@@ -260,12 +267,12 @@ img
 .grow-icon {
   transition: all .1s ease-in-out;
 }
-.grow:hover {
+/*.grow:hover {
   transform: scale(1.05);
 }
 .grow-icon:hover {
   transform: scale(1.2);
-}
+}*/
 /*projects*/
 
 .content-wrap {
@@ -274,6 +281,7 @@ img
   
   overflow: hidden;
   text-align: center;
+  flex-wrap: wrap;
 }
 .project {
   padding: 2px 4px;
@@ -286,17 +294,19 @@ img
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   color:black;
 }
+
 #projects{display:flex;
-justify-content: center;
+
   margin:auto;
   padding-top:100px;
-  align-items: center;
+  
+  flex-wrap: wrap;
 
 }
-.project:hover {
+/*.project:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   color:black;text-decoration: underline;
-}
+}*/
 
 .contaainer{
   width: 250px;
@@ -311,30 +321,31 @@ justify-content: center;
   justify-content:center;
   align-items: center;
   display:flex;
-  flex-direction:column;
+  
 text-align:center;
 background-image: url("./my.jpg");
 background-size:cover;
 background-position: center; 
 color: white; 
-
+flex-wrap: wrap;
   
   
   }
-  .contaainer:hover { transform: scale(1.1);
-     }
+  /*.contaainer:hover { transform: scale(1.1);
+     }*/
 
 .bttn { border :black 1px solid;
 background-color: grey;
 padding:10px;
 margin:10px;
 border-radius: 10%;}
+
 .bttn:hover{cursor: pointer;
   transform: scale(1.1);
 }
 
 
-
+#footer-header{text-align:center;padding-top: 20px;}
 .roow{
 padding:20px;
 display:flex;
