@@ -15,7 +15,7 @@ html {
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent;
 }
-.social-link-group{margin:50px;}
+.social-link-group{margin:50px;padding:20px;}
 
 @-ms-viewport {
     width: device-width;
