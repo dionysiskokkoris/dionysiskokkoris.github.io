@@ -15,7 +15,7 @@ html {
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent;
 }
-.social-link-group{margin:50px;padding:20px;}
+.social-link-group{}
 
 @-ms-viewport {
     width: device-width;
@@ -25,7 +25,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 }
 .btn{margin-left:80px;
 }
-.ro{padding-bottom:20px;
+.ro{
   display: flex;
   justify-content: center;
   align-items: center;}
