@@ -23,12 +23,12 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 }
 .btn{margin-left:80px;
 }
-.ro{padding:20px;
+.ro{padding-bottom:20px;
   display: flex;
   justify-content: center;
   align-items: center;}
 
-  .ro1{font-size: 2em; animation: skew 1s infinite;
+  .ro1{font-size: 1em; animation: skew 1s infinite;
 
 
   }
