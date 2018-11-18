@@ -414,7 +414,7 @@ flex-direction: row;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
   text-align: center;
-  background:url("/home/dion/Desktop/nn.jpg");
+  background:url("./nn.jpg");
   background-size:cover;
 
 }
@@ -427,7 +427,7 @@ flex-direction: row;
 .back {
   transform: rotateY(180deg);
   text-align: center;
-  background:url("/home/dion/Desktop/nn.webp");
+  background:url("./nn.webp");
   background-size:cover;
 
 }
