@@ -24,7 +24,7 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
-.btn{margin-left:80px;
+.btn{margin-left:8px;
 }
 .ro{
   display: flex;
