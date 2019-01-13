@@ -7,7 +7,7 @@
 *, :after, :before {
     box-sizing: border-box;
 }
-uni-logo{color:black}
+.uni-logo{color:black}
 html {
     font-family: sans-serif;
     line-height: 1.15;
