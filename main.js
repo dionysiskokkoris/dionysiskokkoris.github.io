@@ -1,6 +1,4 @@
-
-
-  window.sr = ScrollReveal({ duration: 2000 });
+window.sr = ScrollReveal({ duration: 2000 });
   sr.reveal('#logo', 100);
 
 
